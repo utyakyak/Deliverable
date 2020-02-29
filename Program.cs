@@ -9,25 +9,24 @@ namespace Deliverable
             int n1 = Convert.ToInt32(Console.ReadLine());
             int n2 = Convert.ToInt32(Console.ReadLine());
 
-            try
-            {
-                int result = n1 / n2;
-            }
-            catch (DivideByZeroException e)
-            {
-                Console.WriteLine("Exception caught: {0}", e);
-            }
-            finally
-            {
-                Console.WriteLine("Result: {0}", result4);
-            }
+            //try
+            //{
+            //    int result = n1 / n2;
+            //}
+            //catch (DivideByZeroException)
+            //{
+            //    Console.WriteLine("Exception caught: Attempted to divide by 0");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Result: 0");
+            //}
 
             int result1 = n1 + n2;
             int result2 = n1 - n2;
             int result3 = n1 * n2;
             int result4 = n1 / n2;
             int result5 = n1 % n2;
-
 
             string msg1 = "The sum of " + n1 + " and " + n2 + " is: " + result1;
             string msg2 = "The difference between " + n1 + " and " + n2 + " is: " + result2;
@@ -76,6 +75,7 @@ namespace Deliverable
                 Console.WriteLine("Hey buddy, what flag value is this?");
             }
         }
+  
         static void Main(string[] args)
         {
             Console.WriteLine("Angelica Nguyen");
@@ -110,17 +110,7 @@ namespace Deliverable
                 Console.WriteLine(msg);
 
                 PrintMessage(3);
-            }
-
-
-           
-
-            //
-            //
-
-            //Console.WriteLine("Enter your first number");
-            
-  
+            }  
         }
     }
 }
