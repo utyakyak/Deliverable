@@ -9,19 +9,6 @@ namespace Deliverable
             int n1 = Convert.ToInt32(Console.ReadLine());
             int n2 = Convert.ToInt32(Console.ReadLine());
 
-            //try
-            //{
-            //    int result = n1 / n2;
-            //}
-            //catch (DivideByZeroException)
-            //{
-            //    Console.WriteLine("Exception caught: Attempted to divide by 0");
-            //}
-            //finally
-            //{
-            //    Console.WriteLine("Result: 0");
-            //}
-
             int result1 = n1 + n2;
             int result2 = n1 - n2;
             int result3 = n1 * n2;
